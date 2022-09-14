@@ -78,7 +78,7 @@ pub fn derive_edition_pda(pubkey: &Pubkey) -> Pubkey {
 }
 
 pub fn derive_cmv2_pda(pubkey: &Pubkey) -> Pubkey {
-    let cmv2_pubkey = Pubkey::from_str("cndy3Z4yapfJBmL3ShUp5exZKqR3z33thTzeNMm2gRZ")
+    let cmv2_pubkey = Pubkey::from_str("ccmpgw68x3NJmNPePFrTm6TsKCEYUVhF8rEAVL9rSDd")
         .expect("Failed to parse pubkey from candy machine program id!");
 
     let seeds = &["candy_machine".as_bytes(), pubkey.as_ref()];
